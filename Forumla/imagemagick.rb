@@ -1,7 +1,7 @@
 class Imagemagick < Formula
   desc "Tools and libraries to manipulate images in many formats. Specially modified for MES."
   homepage "https://www.imagemagick.org/"
-  head "https://github.com/mes/ImageMagick.git", branch: "newWorkerFix"
+  head "https://github.com/mes/ImageMagick.git", :branch => "newWorkerFix"
 
   bottle do
     sha256 "06ef83e6e00b8e3f3683c3fc66a5915f527245959c1c46a248f37ad7f6774d96" => :sierra
